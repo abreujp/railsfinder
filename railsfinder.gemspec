@@ -30,6 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "tty-cursor", "~> 0.7"
   spec.add_dependency "tty-reader", "~> 0.9"
   spec.add_dependency "tty-screen", "~> 0.8"
+  spec.add_development_dependency 'minitest', '~> 5.22'
 
   # More information and examples about creating a new gem are available at:
   # https://bundler.io/guides/creating_gem.html
